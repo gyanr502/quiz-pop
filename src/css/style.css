@@ -5,24 +5,68 @@
 }
 body{
   margin-top: 30px;
-}
-#main{
-  display: flex;
-  justify-content: center;
   background-color: lightgreen;
-  width: 70%;
-  margin: auto;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
 }
-.heading{
-  width: 200px;
+#button{
+  width: 500px;
+  margin: auto;
   text-align: center;
-  border: 10px solid black ;
-  border-radius: 10px;
+}
+#button button{
+  color: darkgoldenrod;
+  background-color: rgb(136, 200, 221);
+  font-size: 60px;
+  border: 3px dotted darkgreen;
+  width: 300px;
+  height: 300px;
+  border-radius: 90%;
+  /* background-color: #eaeaea; */
+  /* color: #333; */
+  /* border: none; */
+  cursor: pointer;
 }
 #main h1{
   background-color: coral;
+  text-align: center;
+  border: 3px solid darkgreen;
+  font-size: 100px;
+  border-radius: 50%;
+  
 }
-
+.topics{
+  background-color: cadetblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  width: 900px;
+  border-radius: 50%;
+}
+.music{
+  background-color: chocolate;
+  font-size: 40px;
+  margin: 20px 50px 20px 50px ;
+  padding: 10px;
+  border: 3px solid darkolivegreen;
+  border-radius: 30%;
+  cursor: pointer;
+}
+.modern-art{
+  background-color: chocolate;
+  font-size: 40px;
+  margin: 20px 50px 20px 50px ;
+  padding: 10px;
+  border: 3px solid darkolivegreen;
+  border-radius: 30%;
+  cursor: pointer;
+}
+.coding{
+  background-color: chocolate;
+  font-size: 40px;
+  margin: 20px 50px 20px 50px ;
+  padding: 10px;
+  border: 3px solid darkolivegreen;
+  border-radius: 30%;
+  cursor: pointer;
+}
 
